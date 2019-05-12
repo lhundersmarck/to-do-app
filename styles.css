@@ -1,0 +1,16 @@
+main {
+  margin-left: 5%;
+}
+
+#addToDoForm button, #toDoList button {
+  margin-left: 5%
+}
+
+#toDoList button {
+  background-color: #FF6868;
+}
+
+#toDoList input {
+  margin-right: 2%;
+  margin-left: 2%;
+}
