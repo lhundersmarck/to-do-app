@@ -25,6 +25,10 @@ function onReady() {
       const checkbox = document.createElement('input');
       checkbox.type = "checkbox";
 
+      checkbox.onchange = function(event) {
+        alert("changed")
+      };
+
       newLi.textContent = toDo.title;
 
       toDoList.appendChild(newLi);
